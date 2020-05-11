@@ -1,0 +1,39 @@
+body{
+  background-image: url('https://scontent.fcgh4-1.fna.fbcdn.net/v/t1.0-9/86479051_108273564087716_4988379144485076992_o.jpg?_nc_cat=103&_nc_sid=e3f864&_nc_eui2=AeFy4kFcvSvQl8mrRfJMiTvyjYBgnIjUZ0mNgGCciNRnSSb8hNIUkKetIWgpq7QaHT8CFHCPM3D8lMgeY6wO1Q5A&_nc_ohc=-uVLpt8m-xcAX9YOZvY&_nc_ht=scontent.fcgh4-1.fna&oh=c5d15bf64a2df87b4a3027c91402e554&oe=5EE117A1');
+  background-size: auto 100vh;
+  font-family:verdana;
+  height: 100vh;
+}
+
+.menu {
+  background-color: white;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style:none;
+}
+
+
+a {
+  color: teal;  
+  text-decoration: none;
+  }
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+  text-align: center;
+  color: whitesmoker;
+}
+
+.site-subtitle {
+  font-style: italic;
+}
